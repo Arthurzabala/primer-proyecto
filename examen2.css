@@ -1,0 +1,43 @@
+.container{
+    background-color: #F9CB9C;
+    padding: 0px 0px 20px 0px;
+    justify-content:center;
+    align-items:center;    
+}
+div #peq{
+    width: 75px;
+    border-radius: 2rem;
+    border: 2px solid black;
+}
+.row{
+    margin: 30px 0px 0px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+#grande{
+    width:500px;
+    height: 300px;
+    
+}
+.container2{
+    margin: 0px 290px;
+    padding: 0px 10px;
+}
+img#likes{
+    width: 20px;
+    margin: 0px 0px 10px 0px;
+}
+#mediana{
+    height: 170px;
+    width: 320px;
+}
+button{
+    border: white;
+    margin: 5px;
+}
+div#likes02.likes{
+    text-align: end;
+}
+div#likes03.likes{
+    text-align: end;
+}
