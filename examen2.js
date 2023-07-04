@@ -1,6 +1,6 @@
-function quitar_botton(boton){
-    console.log(boton);
-    boton.remove();
+function quitar_usuario (button){
+    console.log(button);
+    button.remove();
 }
 function add_likes(identificador){
     const div_likes = document.querySelector("#"+identificador)

@@ -18,7 +18,7 @@
                     </form>
                 </div>
             </nav>
-            <div class="row">                
+            <div class="row text-center">                
                 <div  class="col-4">
                     <div class="input-group mb-3 " id="borrar">
                         <input id="texto" type="text" class="form-control" placeholder="Ingrese Postre" aria-label="Recipient's username" aria-describedby="button-addon2">
@@ -31,42 +31,40 @@
                 <div  class="col-2"><img id="peq" src="./imgs/pie.png" alt="pie"><h6>Pie</h6></div>
             </div>
         </div>
-        <div class="container2">
-            <div class="row">
-                <div class="col-5">
-                    <h4 style="color: #095394;text-align:center;">Recipe of the Day</h4>
+        <div class="container2 container-fluid"> 
+            <div class="row text-center align-items-center">                
+                <div  class="col-6 align-items-center">
+                    <h4>Recipe of the Day</h4>
                     <img id="grande" src="./imgs/orange-tart.jpg" alt="tarta">
-                    <div class="row p-4">
-                        <div class="col-8"><p>Orange Tea Jelly Tar</p>
-                            <p style="color: blue; margin: -17px 0px 5px 60px ;">By:<u>yuripiano</u></p>
-                        </div>
-                        <div class="col-3">
-                            <div id="likes01" class="likes"><span>16</span>
-                                <button onclick ="add_likes('likes01')"> <img id="likes"src="./imgs/heart.png" alt="corazom"></button>
-                            </div>
-                        </div>              
-                        <center><p><u>Se Full Recibe</u></p></center>
+                    <b>Orange Tea Jelly Tar</b><h4>By:<u>Yuripiano</u></h4>
+                    <div id="likes01" class="likes offset-10"><span>18</span>
+                        <button onclick ="add_likes('likes01')"> <img id="likes"src="./imgs/heart.png" alt="corazom"></button>
                     </div>
                 </div>
-                <div class="col-4">
-                    <p>Recommended for you:</p>     
-                    <img id="mediana" src="./imgs/macarons.jpg" alt="macarone">
-                    <div><p>Macarons</p>
-                        <p style="color: blue; margin:  -17px 0px 5px 60px ;"> By:<u>EmilieW</u></p>                       
+                <div  class="col-6 text-center">
+                    <div class= "row d-block mx-auto text"> 
+                        <div  class="col"><figure class="figure">
+                            <b>Recommended for you:</b>     
+                            <img id="mediana"src="./imgs/macarons.jpg"  class="figure-img img-fluid rounded" alt="macarone">
+                            <figcaption class="figure-caption"><b>Macarons</b></p><h4>By:<u>EmilieW</u></h4>
+                                <div id="likes02" class="likes offset-8"><span>24</span>
+                                    <button onclick ="add_likes('likes02')"> <img id="likes"src="./imgs/heart.png" alt="corazom"></button>
+                                </div></figcaption>
+                          </figure>
+                        </div>
+                        <div  class="col"><figure class="figure">
+                            <img id="mediana" src="./imgs/creme-brulee.jpg"  class="figure-img img-fluid rounded" alt="tasa">
+                            <figcaption class="figure-caption"><b>Creme Brulee</b></p><h4>By:<u>MarisaG</u></h4>
+                                <div id="likes03" class="likes offset-8"><span>88</span>
+                                    <button onclick ="add_likes('likes03')"> <img id="likes"src="./imgs/heart.png" alt="corazom"></button>
+                                </div></figcaption>
+                          </figure>
+                        </div>
                     </div>
-                    <div id="likes02" class="likes"><span>24</span>
-                        <button onclick ="add_likes('likes02')"> <img id="likes"src="./imgs/heart.png" alt="corazom"></button>
-                    </div>
-                    <img id="mediana" src="./imgs/creme-brulee.jpg" alt="tasa">
-                    <div><p>Creme Brulee</p>
-                        <p style="color: blue; margin:  -17px 0px 5px 60px ;"> By:<u>MarisaG</u></p>                       
-                    </div>
-                    <div id="likes03" class="likes"><span>88</span>
-                        <button onclick ="add_likes('likes03')"> <img id="likes"src="./imgs/heart.png" alt="corazom"></button>
-                    </div>
-                </div> 
-            </div> 
-        </div>                   
+                </div>
+            </div>
+            <a href="#" class="p-4"><b>Se Full Recibe</b></a>
+        </div>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
         <script src="examen2.js"></script>
     </body>

@@ -5,7 +5,7 @@
     align-items:center;    
 }
 div #peq{
-    width: 75px;
+    width: 75%;
     border-radius: 2rem;
     border: 2px solid black;
 }
@@ -15,29 +15,33 @@ div #peq{
     justify-content: space-between;
 }
 #grande{
-    width:500px;
-    height: 300px;
+    width:100%;
+    height: 70%;
+    flex: content;
+    align-items: center;
     
 }
 .container2{
-    margin: 0px 290px;
-    padding: 0px 10px;
+    background-color: #adadad;
+    justify-content:center;
+    align-items:center; 
+    width: 85%;
+    height: 100%;    
 }
 img#likes{
     width: 20px;
     margin: 0px 0px 10px 0px;
 }
 #mediana{
-    height: 170px;
-    width: 320px;
+    height: 100%;
+    width: 80%;
+    padding: 10px;
 }
 button{
     border: white;
     margin: 5px;
 }
-div#likes02.likes{
-    text-align: end;
+h4{
+    color: blue;
 }
-div#likes03.likes{
-    text-align: end;
-}
+
